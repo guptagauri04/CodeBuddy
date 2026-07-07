@@ -1,4 +1,4 @@
-# Virtual Environment
+# Python virtual environment
 .venv/
 
 # Python cache
@@ -8,6 +8,6 @@ __pycache__/
 # VS Code settings
 .vscode/
 
-# OS files
+# Operating System files
 .DS_Store
 Thumbs.db
