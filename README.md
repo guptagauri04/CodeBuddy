@@ -1,81 +1,157 @@
-# CodeBuddy 🧑‍💻
+# 🚀 CodeBuddy
 
-CodeBuddy is a simple CLI-based Python application that helps me overcome procrastination and build a daily coding habit.
-
-I built this project for myself while learning Python, with the goal of:
-- reducing the mental friction of starting to code
-- practicing core Python concepts in a real project
-- building something small, useful, and complete
+> A gamified coding companion built with Python to help students build consistent coding habits through daily challenges, streaks, focus sessions, and progress tracking.
 
 ---
 
-## 🚀 What CodeBuddy Does
+# 📖 About
 
-When you run CodeBuddy, it:
+CodeBuddy is a command-line (CLI) application designed to make starting a coding session easier and more enjoyable.
 
-1. Greets you with a short motivational message  
-2. Tracks and displays your daily coding streak  
-3. Lets you choose a task difficulty (easy / medium)  
-4. Suggests one coding task for the day  
-5. Offers a 5-minute coding timer to help you start  
+Instead of wondering **"What should I practice today?"**, CodeBuddy provides:
 
-The focus is consistency over intensity.
+- 🎯 Random coding tasks
+- 🔥 Daily streak tracking
+- ⭐ XP and level progression
+- 📊 Coding statistics
+- 💬 Motivational messages
+- ⏱ Focus timer
 
----
+The goal is simple:
 
-## 🧠 Why I Built This
-
-I noticed that I often want to code, but delay starting. Once I start, I enjoy it.
-
-So instead of relying on motivation, I built a small system that:
-- removes decision fatigue
-- encourages starting small
-- rewards showing up regularly
-
-CodeBuddy is not meant to be a productivity tool for everyone- it’s a personal learning project and habit-building tool.
+**Build consistency by making it easier to start coding every day.**
 
 ---
 
-## 🛠️ Technologies Used
+# ✨ Features
+
+- 🔥 Daily Coding Streak
+- 🎯 Random Coding Challenges
+- ⭐ XP & Level System
+- 📊 Coding Statistics
+- 👤 User Profile
+- 💬 Motivational Messages
+- ⏱ 5-Minute Focus Timer
+- 🖥 Beautiful CLI Interface using Rich
+
+---
+
+# 🛠 Tech Stack
 
 - Python 3
-- JSON (for storing data)
-- Standard Python libraries only (`datetime`, `random`, `time`)
-
-No external dependencies.
+- Rich (CLI UI)
+- JSON
+- Git
+- GitHub
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
+```text
 CodeBuddy/
 │
 ├── codebuddy.py
+├── helpers/
+│   ├── __init__.py
+│   ├── motivator.py
+│   ├── profile.py
+│   ├── statistics.py
+│   ├── streak.py
+│   ├── tasks.py
+│   ├── timer.py
+│   └── ui.py
 │
-├── helpers/ 
-│ ├── init.py
-│ ├── streak.py 
-│ ├── tasks.py 
-│ ├── motivator.py 
-│ └── timer.py 
+├── data/
+│   ├── profile.json
+│   ├── settings.json
+│   ├── stats.json
+│   └── streak.json
 │
-├── data/ 
-│ ├── streaks.json
-│ └── settings.json
-│
-├── tasks.json 
-│
+├── tasks.json
+├── requirements.txt
 └── README.md
+```
 
 ---
 
-## ▶️ How to Run
+# 🚀 Installation
 
-1. Make sure Python 3 is installed  
-2. Clone the repository  
-3. Navigate to the project folder  
-4. Run:
+Clone the repository
+
+```bash
+git clone https://github.com/guptagauri04/CodeBuddy.git
+```
+
+Move into the project
+
+```bash
+cd CodeBuddy
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
 
 ```bash
 python codebuddy.py
+```
 
+---
+
+# 📸 Screenshots
+
+> Screenshots will be added soon.
+
+---
+
+# 🌱 Future Roadmap
+
+### Version 2.0
+- 🖥 Desktop GUI using CustomTkinter
+- 🎨 Modern dashboard
+- 🏆 Achievements & Badges
+
+### Version 3.0
+- 🤖 AI Coding Coach
+- 💡 Personalized coding recommendations
+
+### Version 4.0
+- ☁ Database integration
+- 🔄 Cloud sync
+
+### Version 5.0
+- 🌐 Web Application
+- 👥 User accounts
+- 📈 Global leaderboards
+
+---
+
+# 🎯 Skills Demonstrated
+
+- Python Programming
+- Modular Programming
+- JSON Data Handling
+- Command-Line Application Development
+- Git & GitHub
+- Software Project Organization
+
+---
+
+# 👩‍💻 Author
+
+**Gauri Gupta**
+
+GitHub:  
+https://github.com/guptagauri04
+
+LinkedIn:  
+https://www.linkedin.com/in/gaurigupta04/
+
+---
+
+⭐ If you found this project interesting, consider giving it a star!
