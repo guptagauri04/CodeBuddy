@@ -1,0 +1,22 @@
+[
+  {
+    "task": "Write a function to reverse a string",
+    "difficulty": "easy"
+  },
+  {
+    "task": "Check if a number is a palindrome",
+    "difficulty": "easy"
+  },
+  {
+    "task": "Find the largest element in a list",
+    "difficulty": "easy"
+  },
+  {
+    "task": "Implement binary search",
+    "difficulty": "medium"
+  },
+  {
+    "task": "Create a simple calculator using functions",
+    "difficulty": "medium"
+  }
+]
